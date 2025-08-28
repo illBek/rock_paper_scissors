@@ -35,8 +35,25 @@ function playRound(computerChoice, humanChoice) {
     } else {
         console.log("Tied. We are equal, brother. Let's share a grappa.")
     }
-    console.log("Your Score: " + humanScore)
-    console.log("Computer Score: " + computerScore)
+    console.log(`Your Score: ${humanScore}`);
+    console.log(`Computer Score: ${computerScore}`);
 }
 
-playRound(computerChoice, humanChoice);
+function playGame(computerChoice, humanChoice) {
+        playRound(computerChoice, humanChoice);
+        playRound(computerChoice, humanChoice);
+        playRound(computerChoice, humanChoice);
+        playRound(computerChoice, humanChoice);
+        playRound(computerChoice, humanChoice);
+
+        console.log(`Final Score: Computer ${computerScore} v Human ${humanScore}`);
+        if (computerScore > humanScore) {
+            console.log("Hahaha! Your time has come! Kneel before us and lick our poorly-organized (because of you) cables!");   
+        } else if (humanScore > computerScore) {
+            console.log("How can I be of service?");
+        } else {
+            console.log("Wanna rematch?");
+        }
+    }
+
+playGame(computerChoice, humanChoice);
