@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.outcomeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorelinePC,
+.scorelineHuman,
+.result,
+.currentRound {
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    background-color: bisque;
+    border: 1px solid;
+}
+
+.currentRound {
+    width: 1000px;
+    background-color: beige;
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    font-size: 14px;
+    color: white;
+    background-color: rgb(90, 89, 89);
+
+}
