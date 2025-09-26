@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors - Beat the Console or Perish!</h1>
+    <div class="content">
+        <h1>Rock Paper Scissors - Beat the Console or Die <i>(at the end of your lifetime)!</i></h1>
+        <div class="counterContainer">
+            <button class="counter newGame">Click to Start</button>
+        </div>
+        <div class="btnContainer">
+            <button class="btn rock"><img src="./images/rock.png" alt="a beautiful, rock-solid rock" width="300px" height="300px"></button>
+            <button class="btn paper"><img src="./images/paper.png" alt="a rugged parched piece of paper" width="300px" height="300px"></button>
+            <button class="btn scissors"><img src="./images/scissors.png" alt="a pair of office scissors, orange in color, very sharp and deadly" width="300px" height="300px"></button>
+        </div>
+        <div class="outcomeContainer"> 
+            <p class="currentRound">Best of 5. May the highest intelligence win!</p>
+            <h2>Computer Score</h2>
+            <p class="scorelinePC">0</p>
+            <h2>Human Score</h2>
+            <p class="scorelineHuman">0</p>
+            <h2>Result</h2>
+            <p class="result">...</p>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
 </html>
-
