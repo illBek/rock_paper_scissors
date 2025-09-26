@@ -19,8 +19,8 @@ let counter = document.querySelector(".counter");
 
 let currentRound = document.querySelector(".currentRound");
 
-let computerAudio = new Audio("./sounds/BenderLaughter.mp3");
-let humanAudio = new Audio("./sounds/Yeah.mp3");
+let computerAudio = new Audio("https://youtu.be/YIlL0T2yTss?si=d_DJjyXPOjNEgaQI");
+let humanAudio = new Audio("https://youtu.be/9m-MUz2Rihs?si=HVNLCrpw52BahRj_");
 
 // Functions
 
